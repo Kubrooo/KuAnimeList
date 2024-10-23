@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Ku Anime List</string>
+    <string name="anime_title">Judul Anime</string>
+    <string name="description">Deskripsi</string>"
+    <string name="episode">Episode</string>
+    <string name="the_anime_poster">the anime poster</string>
+    <string name="share">Share</string>
+    <string name="email_label">Email :</string>
+    <string name="full_name">Galih Tri Ardiansyah</string>
+    <string name="hobbies_label">Hobbies :</string>
+    <string name="hobbies">- Coding\n- Bermain Game\n- Berenang\n- Membaca Manga\n- Nonton Anime</string>
+    <string name="myemail">galihtriardiansyah@gmail.com</string>
+    <string name="profContentDesc">showingMyProfilePicture</string>
+    <string name="about_me">Halo! Nama saya Galih Tri Ardiansyah. Saya sangat menyukai dunia teknologi, terutama dalam hal coding. Di luar kesibukan, saya sering menghabiskan waktu dengan bermain game, berenang untuk menyegarkan pikiran, serta menikmati berbagai cerita dari manga dan anime favorit. Semua hal itu adalah bagian dari keseharian yang membuat saya terus semangat untuk belajar hal-hal baru.</string>
+    <string name="about_me_headline">About Me</string>
+
+    <string-array name="data_name">
+        <item>Black Clover</item>
+        <item>Kimetsu No Yaiba</item>
+        <item>Fairy Tail</item>
+        <item>Sousou No Frieren</item>
+        <item>Hunter x Hunter</item>
+        <item>Jojo Bizzare Adventure</item>
+        <item>Jujutsu Kaizen</item>
+        <item>Nanatsu No Taizai</item>
+        <item>Naruto</item>
+        <item>Sword Art Online</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Black Clover adalah anime fantasi yang menceritakan tentang Asta, anak tanpa sihir yang bercita-cita menjadi Kaisar Sihir. Bersama pasukan Banteng Hitam, ia menghadapi berbagai tantangan dan pertarungan sihir.</item>
+        <item>Kimetsu No Yaiba adalah anime yang mengikuti Tanjirou, seorang anak yang keluarganya dibunuh oleh iblis, dan adiknya Nezuko berubah menjadi iblis. Tanjirou bergabung dengan Pemburu iblis untuk membasmi iblis dan mencari cara mengembalikan Nezuko menjadi manusia.</item>
+        <item>Fairy Tail adalah anime fantasi yang mengikuti petualangan Natsu Dragneel, seorang penyihir dari guild Fairy Tail, bersama teman temannya. Mereka Menjalani Misi berbahaya, bertarung melawan musuh kuat, dan memperkuat ikatan persahabatan sambil berjuang melindungi dunia dari ancaman sihir jahat.</item>
+        <item>Sousou no Frieren adalah anime fantasi yang berkisah tentang Frieren, seorang penyihir elf yang memiliki umur panjang. Setelah mengalahkan raja iblis bersama kelompok pahlawannya, Frieren menghadapi kesedihan karena teman-temannya dari ras manusia telah meninggal. Ia pun memulai perjalanan baru untuk memahami kehidupan, kenangan, dan perasaan manusia yang singkat.</item>
+        <item>Hunter x Hunter adalah anime yang mengikuti Gon Freecss, seorang anak yang bercita-cita menjadi Hunter—petualang elit dengan kemampuan luar biasa. Gon memulai perjalanan untuk menemukan ayahnya, seorang Hunter legendaris, sambil menghadapi tantangan berat, bertemu teman baru, dan melawan musuh kuat di sepanjang perjalanannya.</item>
+        <item>JoJo Bizarre Adventure adalah anime aksi-petualangan yang mengikuti berbagai generasi keluarga Joestar, yang memiliki kekuatan luar biasa. Setiap generasi berjuang melawan kekuatan jahat, mulai dari vampir hingga pengguna Stand, entitas spiritual yang memberi mereka kemampuan unik. Anime ini terkenal dengan gaya visual yang mencolok, karakter-karakter ikonik, dan plot yang penuh aksi serta kejadian tak terduga.</item>
+        <item>Jujutsu Kaisen adalah anime aksi-fantasi yang mengikuti Yuji Itadori, seorang siswa yang tanpa sengaja menelan jari dari roh terkutuk kuat bernama Sukuna. Untuk menyelamatkan dunia dari kekuatan kutukan tersebut, Yuji bergabung dengan sekolah Jujutsu, tempat para penyihir belajar membasmi roh-roh terkutuk. Bersama teman-temannya, ia menghadapi berbagai makhluk jahat dan ancaman kutukan yang semakin besar.</item>
+        <item>Nanatsu no Taizai (The Seven Deadly Sins) adalah anime fantasi yang mengikuti petualangan sekelompok ksatria legendaris bernama Tujuh Dosa Mematikan. Dipimpin oleh Meliodas, mereka berusaha menyelamatkan kerajaan Britannia dari ancaman musuh dan konspirasi jahat. Sepanjang perjalanan, mereka bertarung melawan kekuatan besar sambil mengungkap masa lalu mereka yang misterius.</item>
+        <item>Naruto adalah anime aksi-petualangan yang mengikuti perjalanan Naruto Uzumaki, seorang ninja muda yang bercita-cita menjadi Hokage, pemimpin desanya. Meski awalnya dijauhi karena memiliki roh rubah ekor sembilan yang disegel di dalam tubuhnya, Naruto bertekad membuktikan dirinya sambil menghadapi berbagai musuh kuat dan membentuk persahabatan erat dengan rekan-rekannya.</item>
+        <item>Sword Art Online adalah anime yang berkisah tentang Kirito, seorang pemain game yang terjebak di dalam dunia virtual reality bernama Sword Art Online. Para pemain tidak bisa keluar dari game, dan jika mereka mati di dalamnya, mereka juga mati di dunia nyata. Kirito berjuang untuk bertahan hidup, mengalahkan bos-bos game, dan mencari cara untuk keluar sambil bertemu dengan teman-teman baru serta cinta dalam game.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/black_clover</item>
+        <item>@drawable/demonslayer_image</item>
+        <item>@drawable/fairytail_image</item>
+        <item>@drawable/frieren_image</item>
+        <item>@drawable/hunterxhunter_image</item>
+        <item>@drawable/jojo_image</item>
+        <item>@drawable/jujutsu_image</item>
+        <item>@drawable/nanatsu_image</item>
+        <item>@drawable/naruto_image</item>
+        <item>@drawable/sao_image</item>
+    </integer-array>
+
+    <integer-array name="data_episode">
+        <item>170</item> <!-- Black Clover -->
+        <item>26</item>  <!-- Kimetsu No Yaiba -->
+        <item>328</item> <!-- Fairy Tail -->
+        <item>12</item>  <!-- Sousou No Frieren -->
+        <item>148</item> <!-- Hunter x Hunter -->
+        <item>152</item> <!-- JoJo Bizarre Adventure -->
+        <item>24</item>  <!-- Jujutsu Kaisen -->
+        <item>24</item>  <!-- Nanatsu No Taizai -->
+        <item>220</item> <!-- Naruto -->
+        <item>96</item>  <!-- Sword Art Online -->
+    </integer-array>
+
+    <integer-array name="detail_photo">
+        <item>@drawable/blackclover_detail</item>
+        <item>@drawable/demonslayer_detail</item>
+        <item>@drawable/fairytail_detail</item>
+        <item>@drawable/frieren_detail</item>
+        <item>@drawable/hunterxhunter_details</item>
+        <item>@drawable/jojo_detail</item>
+        <item>@drawable/jujutsu_detail</item>
+        <item>@drawable/nanatsu_detail</item>
+        <item>@drawable/naruto_details</item>
+        <item>@drawable/sao_detail</item>
+    </integer-array>
+
+</resources>
