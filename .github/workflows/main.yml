@@ -30,9 +30,6 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
   # 2. Job untuk unit test
   unit_test:
     runs-on: ubuntu-latest
@@ -46,6 +43,9 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
       - name: Run Unit Tests
         run: ./gradlew test
@@ -69,6 +69,9 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
+      
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
       - name: Build APK
         run: ./gradlew assembleRelease
@@ -95,6 +98,9 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
       - name: Run Integration Tests on BrowserStack
         run: |
