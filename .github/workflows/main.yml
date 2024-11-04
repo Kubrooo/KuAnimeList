@@ -80,7 +80,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: app/build/outputs/apk/release/app-release.apk
+          path: app/build/outputs/apk/debug
 
   # 4. Job untuk integration test (menggunakan BrowserStack)
   integration_test:
@@ -100,7 +100,7 @@ jobs:
           java-version: '17'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v4
+        uses: android-actions/setup-android@v3
 
       - name: Start emulator
         run: |
@@ -123,7 +123,7 @@ jobs:
           ./gradlew connectedAndroidTest -PbrowserStackUsername=$BROWSERSTACK_USERNAME -PbrowserStackAccessKey=$BROWSERSTACK_ACCESS_KEY
 
       - name: Upload Integration Test Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: integration-test-results
           path: app/build/reports/androidTests/connected/
