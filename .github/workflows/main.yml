@@ -30,6 +30,9 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
   # 2. Job untuk unit test
   unit_test:
     runs-on: ubuntu-latest
