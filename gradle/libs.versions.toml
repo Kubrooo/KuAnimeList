@@ -1,6 +1,7 @@
 [versions]
 agp = "8.5.0"
 javaClient = "8.3.0"
+javaClientVersion = "8.4.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -12,10 +13,12 @@ activity = "1.9.2"
 constraintlayout = "2.1.4"
 coreKtxVersion = "1.6.1"
 junitKtx = "1.2.1"
+seleniumJava = "4.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 java-client = { module = "io.appium:java-client", version.ref = "javaClient" }
+java-client-v840 = { module = "io.appium:java-client", version.ref = "javaClientVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -25,6 +28,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "seleniumJava" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

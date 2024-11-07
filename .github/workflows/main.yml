@@ -80,7 +80,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: app/build/outputs/apk/debug
+          path: app/build/outputs/apk/debug/
 
   # 4. Job untuk integration test (menggunakan BrowserStack)
   integration_test:
