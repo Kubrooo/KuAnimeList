@@ -10,7 +10,6 @@
 .DS_Store
 /build
 /captures
-app/src/androidTest/java/com/example/submissionakhirdicoding/BrowserStackAppiumTest.kt
 browserstack.yml
 .externalNativeBuild
 .cxx
