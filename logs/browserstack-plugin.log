@@ -23,3 +23,5 @@
 09:26:16.516 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
 09:27:33.498 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
 09:27:33.498 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+09:47:42.976 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+09:47:43.018 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
