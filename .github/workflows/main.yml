@@ -99,22 +99,6 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Start emulator
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y qemu-kvm
-          avdmanager create avd -n test -k "system-images;android-30;default;x86" --device "pixel" || true
-          emulator -avd test -no-window -no-audio -delay-adb -gpu swiftshader_indirect &
-          adb wait-for-device
-          adb shell input keyevent 82
-
-      - name: Wait for emulator to boot
-        run: adb wait-for-device
-        timeout-minutes: 2
-
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 

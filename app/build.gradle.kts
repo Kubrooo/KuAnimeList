@@ -46,6 +46,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.core.ktx)
     implementation(libs.androidx.junit.ktx)
+    implementation("io.appium:java-client:8.4.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.0.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
