@@ -55,8 +55,6 @@ dependencies {
     implementation(libs.androidx.junit.ktx)
     implementation(libs.java.client.v840)
     implementation(libs.selenium.java)
-    // https://mvnrepository.com/artifact/com.browserstack/browserstack-java-sdk
-    implementation("com.browserstack:browserstack-java-sdk:1.26.4")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
